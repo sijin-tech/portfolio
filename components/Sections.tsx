@@ -26,7 +26,7 @@ export function Header() {
 
 export function Hero() {
   return (
-    <section id="top" className="relative isolate flex min-h-dvh flex-col items-center justify-center overflow-hidden px-4 text-center">
+    <section id="top" className="relative isolate flex min-h-dvh flex-col items-center justify-center overflow-hidden px-4 text-center lg:pt-32">
       <Glow />
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,transparent_20%,#050505_70%)]" />
       <Reveal>
